@@ -2,7 +2,7 @@
 
 These commands work mostly as macros.
 
-To get the custom commands in your machine run the installer
+To get the custom commands in your machine run the installer.
 
 
 - Types `ls -l` in the directory that you typed, without the need to visit that directory directly:
