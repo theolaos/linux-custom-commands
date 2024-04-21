@@ -3,9 +3,25 @@
 #include <string>
 #include <vector>
 
+#define VERSION 0.1f
+
 
 void help(){
-  std::cout << "Not implemented yet" << std::endl;
+    std::cout << "	To use peak you need to type:" << std::endl;
+    std::cout << "	peak 'path/to/directory'" << std::endl;
+    std::cout << "	-V | -version To see the version type " << std::endl;
+}
+
+void app_arguments(std::string argument){
+  if (argument == "-help") {
+    help();
+
+  } else if (argument == "-V" || argument == "-version"){
+    std::cout << "The version of peak is: " << VERSION << '!' << std::endl;
+
+  } else {
+    std::cout << "Not a valid argument." << std::endl;
+  }
 }
 
 
@@ -30,8 +46,8 @@ int main(int argc, char *argv[])
     const char *commands = c.c_str();
 
     std::string arg1 = argv[1];
-    if (arg1 == "-help"){
-      help();
+    if (arg1[0] == '-'){
+      app_arguments(arg1);
     } else {
       // std::system( "ls -l" );
       std::system( commands );

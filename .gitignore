@@ -2,3 +2,6 @@ cllear
 peak
 a.out
 .vscode/
+test.cpp
+build/
+test.sh

@@ -3,6 +3,7 @@
 #include <fstream>
 #include <iostream>
 
+#define VERSION 0.2f
 
 int main()
 {
