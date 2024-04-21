@@ -20,7 +20,7 @@ TODO: add -> -remove command_name etc.
     $ peak <path/to/directory>
     ```
 
-- Clears the screen and runs `ls -l`:
+- Clears the terminal and runs `ls -l`:
     ```bash
     $ cllear
     ```

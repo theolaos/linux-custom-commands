@@ -60,7 +60,6 @@ check_file_then_compile() {
 install(){
     # It compileds and then it moves the custom commands to ~/.local/bin
     for command in "${commands_to_install[@]}"; do
-        echo "$command"
         if [ "$command" = "cllear" ]; then
             echo "installing cllear"
             check_file_then_compile "$command"
