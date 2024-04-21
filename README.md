@@ -4,9 +4,6 @@ These commands work mostly as macros.
 
 To get the custom commands in your machine run the installer.
 
-
-You can download the commands with the custom written BASH installer.
-
 ```bash
 ./installer.sh -all #will install every single command
 ./installer.sh -install peak cllear other_command_name etc. # will install only the commands you want
