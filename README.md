@@ -2,6 +2,8 @@
 
 [![wakatime](https://wakatime.com/badge/user/018c54ba-f9f5-426e-9733-6deb502d647d/project/018ef1ea-6fa3-4825-88db-e4f7bed99f7f.svg)](https://wakatime.com/badge/user/018c54ba-f9f5-426e-9733-6deb502d647d/project/018ef1ea-6fa3-4825-88db-e4f7bed99f7f)
 
+> ### ⚠️ WARNING: There is a possible remote code execution vulnerability in the peak command, use at your own risk
+
 These commands work mostly as macros.
 
 To get the custom commands in your machine run the installer.
